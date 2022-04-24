@@ -1,0 +1,214 @@
+/* ==== Variables ==== */
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --light-color: #ffffff;
+    --accent-color: #2196F3;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.second-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-color)
+}
+
+
+/* ===== Header ===== */
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+} 
+
+.menu-link {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.menu-link:hover {
+    color: var(--accent-color);
+}
+
+.mail-header {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--main-color);
+}
+
+.mail-header:hover{
+    color: var(--accent-color);
+}
+
+.phone-header {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-color);
+
+}
+
+/* ======== Hero ======== */
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    /*color: var(--light-color); */ 
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+
+.hero-button:hover{
+    background-color: var(--accent-color);
+}
+
+
+/* ==== Studio ==== */
+
+.studio-listname{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-color);
+}
+
+.studio-info{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color)
+}
+
+
+/* ==== Our team ==== */
+
+.name{
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-color)
+}
+
+.position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-color)
+}
+
+/* ==== Futer ==== */
+.geolock{
+    font-style: normal;
+    font-weight: 500;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    /* color: var(--light-color) */
+}
+
+.futer-contact{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+
+
+/* ==== Page portfolio ==== */
+
+.portfolio-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62; 
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--light-color);
+    color: var(--main-color)
+}
+
+.portfolio-button:hover{
+    background-color: var(--accent-color);
+}
+
+.portfolio-h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
+    color: var(--main-color)
+}
+
+.portfolio-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-color)
+}
